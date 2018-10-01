@@ -9,12 +9,12 @@
 <script>
   export default {
     props: {
-      message: {
-        type: Number
-      },
-
       increment: {
         type: Function
+      },
+
+      message: {
+        type: Number
       }
     },
 
